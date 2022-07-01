@@ -7,7 +7,7 @@
 
 int main(void)
 {
-char mwisho= 'z';
+char mwisho = 'z';
 char kikomo = '\n';
 while (mwisho >= 'a')
 {
