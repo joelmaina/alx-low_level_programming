@@ -11,7 +11,7 @@ char first = 'a';
 char end = '\n';
 while (first <= 'z')
 {
-if (first !=  'q' && fist != 'e')
+if (first !=  'q' && first != 'e')
 {
 putchar (first);
 }
