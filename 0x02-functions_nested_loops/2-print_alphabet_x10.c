@@ -14,9 +14,9 @@ for (i = 0; i < 10 ; i++)
 letra = 'a';
 while (letra <= 'z')
 {
-_putchar (letra);
+putchar (letra);
 letra++;
 }
-_putchar (retorno);
+putchar (retorno);
 }
 }
