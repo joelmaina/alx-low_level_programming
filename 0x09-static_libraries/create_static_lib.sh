@@ -1,7 +1,4 @@
 #!/bin/bash
-
-# compile
 gcc -Wall -pedantic -Werror -Wextra -c *.c
-
-# create lib
-ar -cr liball.a *.o
+ar -rc liball.a *.o
+ranlib liball.a
