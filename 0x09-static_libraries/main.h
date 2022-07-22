@@ -1,6 +1,6 @@
-#ifndef _MAIN_H
-#define _MAIN_H
-
+#ifndef main_h
+#define main_h
+/*copy list from task*/
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
