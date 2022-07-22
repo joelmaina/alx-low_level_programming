@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, j, sum = 0;
+	int i, j, add = 0;
 
 	for (i = 1; i < argc; i++)
 	{
@@ -23,6 +23,6 @@ int main(int argc, char *argv[])
 		}
 		add += atoi(argv[i]);
 	}
-	printf("%d\n", sum);
+	printf("%d\n", add);
 	return (0);
 }
